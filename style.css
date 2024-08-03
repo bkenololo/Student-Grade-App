@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, p, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    margin-bottom: 2rem;
+  }
+  
+  .input-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-grade {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-grade input, .input-grade button {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .input-grade input {
+    flex: 1;
+  }
+  
+  .input-grade button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-grade button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sort-grade {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .sort-grade button {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sort-grade button:hover {
+    background-color: #218838;
+  }
+  
+  .grade-container {
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  table th, table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+  .statistic-container {
+    margin-bottom: 2rem;
+  }
+  
+  .statistic-container p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .statistic-container span {
+    font-weight: bold;
+  }
+  

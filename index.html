@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Grade App</title>
+  </head>
+  <body>
+    <main>
+      <div class="input-container">
+        <p>Enter new Student Grade</p>
+        <div class="input-grade">
+          <form id="input-grade">
+            <input id="name" type="text" placeholder="Name" />
+            <input id="score" type="text" placeholder="Score" />
+            <button id="add-btn">Add</button>
+          </form>
+          <button id="removeLast">Remove last</button>
+        </div>
+        <div class="sort-grade">
+          <button id="sort-grade-high">Highest to lowest</button>
+          <button id="sort-grade-low">Lowest to highest</button>
+        </div>
+      </div>
+      <div class="grade-container">
+        <table id="grade-table">
+          <thead>
+            <tr>
+              <td>
+                No.
+              </td>
+              <td>
+                Name
+              </td>
+              <td>
+                Score
+              </td>
+              <td>
+                Grade
+              </td>
+              <td>
+                Pass/Fail
+              </td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="statistic-container">
+        <table id="statistic-container">
+          <p>Mode: <span id="mode"></span></p>
+          <p>Mean: <span id="mean"></span></p>
+          <p>Median: <span id="median"></span></p>
+          <p>Highest: <span id="highest"></span></p>
+          <p>Lowest: <span id="lowest"></span></p>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
